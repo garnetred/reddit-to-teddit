@@ -6,7 +6,7 @@ chrome.tabs.onUpdated.addListener((tabId, changeInfo, tab) => {
   if (
     changeInfo.status === 'complete' &&
     tabUrl &&
-    tabUrl.includes('reddit.com')
+    tabUrl.includes('www.reddit.com')
   ) {
     const tabUrlMinusR = domainOnlyUrl.replace('r', 't')
     const tedditUrl = tabUrlMinusR.replace('com', 'net')
