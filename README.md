@@ -1,7 +1,7 @@
-# No LinkedIn News
+# Reddit To Teddit
 
 ## Abstract
-This browser extension hides the news sections on LinkedIn. It was inspired by [DF Tube](https://chrome.google.com/webstore/detail/df-tube-distraction-free/mjdepdfccjgcndkmemponafgioodelna).
+This browser extension automatically redirects Reddit pages to [Teddit](https://teddit.net/about), an open-source, privacy-conscious Reddit alternative.
 
 ## Tech Stack
 This project uses vanilla JS, CSS, and HTML. 
@@ -9,17 +9,14 @@ This project uses vanilla JS, CSS, and HTML.
 ## Setup/Installation
 You can clone the repo locally using `git clone`. 
 
-[This article](https://developer.chrome.com/docs/extensions/mv3/getstarted/development-basics/#load-unpacked) offers detailed instructions on loading an unpacked chrome extension. You can navigate to the chrome extensions page via the puzzle piece icon in the toolbar. From there, you can click "load unpacked extension" and choose the folder via the popup. You should then see the newspaper icon appear in the toolbar. When you click on it, you can see "Hide LinkedIn News." If you navigate to `linkedin.com/feed` or a specific news route starting with `linkedin.com/news` while logged in, you should not see any news information. 
+[This article](https://developer.chrome.com/docs/extensions/mv3/getstarted/development-basics/#load-unpacked) offers detailed instructions on loading an unpacked chrome extension. You can navigate to the chrome extensions page via the puzzle piece icon in the toolbar. After enabling developer mode, you can click "load unpacked extension" and choose the folder via the popup. You should then see the recycle icon appear in the toolbar. When you click on it, you can see "Reddit to Teddit." If you navigate to `www.reddit.com`, you should be redirected to the relevant Teddit page. 
 
 ## Preview
-Home Page
-![NoLinkedInNewsScreenshot3](https://github.com/garnetred/no-linkedin-news/assets/59572865/6f3a87f8-dc1f-4813-bf16-cb0531723d7e)
 
-Individual News Stories
-![Screen Shot 2023-05-15 at 1 04 09 AM](https://github.com/garnetred/no-linkedin-news/assets/59572865/12faa2a0-06a3-44ff-b9e4-c314012ad114)
+https://github.com/garnetred/reddit-to-teddit/assets/59572865/97d5aa9d-f684-48db-ba7a-3e76e25be8e0
 
 
 ## Next Steps
-Long term, I would like to enable and disable the extension using the popup (where the text "Hide LinkedIn News" is visible). 
+Long term, it would be great to add a loading message of some kind while the user waits to be redirected to Teddit. I'd also like to create a custom emoji, the recycle emoji is more of a placeholder. 
 
 
