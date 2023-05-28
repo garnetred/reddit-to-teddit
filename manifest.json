@@ -3,7 +3,7 @@
   "name": "Reddit to Teddit",
   "version": "0.0.1",
   "description": "Automatically redirect web pages from Reddit to Teddit.",
-   "permissions": ["tabs", "scripting"],
+   "permissions": ["scripting"],
   "icons": {
     "16": "images/recycle-16.png",
     "32": "images/recycle-32.png",
