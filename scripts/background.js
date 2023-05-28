@@ -8,7 +8,6 @@ chrome.tabs.onUpdated.addListener((tabId, changeInfo, tab) => {
     tabUrl &&
     tabUrl.includes('reddit.com')
   ) {
-    console.log('domain url', domainOnlyUrl)
     const tabUrlMinusR = domainOnlyUrl.replace('r', 't')
     const tedditUrl = tabUrlMinusR.replace('com', 'net')
     const newUrl = queryParams ? `${tedditUrl}?${queryParams}` : tedditUrl;
