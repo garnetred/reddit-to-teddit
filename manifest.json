@@ -1,0 +1,39 @@
+{
+  "manifest_version": 3,
+  "name": "Reddit to Teddit",
+  "version": "0.0.1",
+  "description": "Automatically redirect web pages from Reddit to Teddit.",
+   "permissions": ["tabs", "scripting"],
+  "icons": {
+    "16": "images/recycle-16.png",
+    "32": "images/recycle-32.png",
+    "48": "images/recycle-48.png",
+    "128": "images/recycle-128.png"
+},
+"background": {
+    "service_worker": "scripts/background.js"
+},
+"web_accessible_resources": [
+  {
+    "resources": ["css/*.css"],
+    "extension_ids": [
+      "elaobedgdmbhchnbjcfpkcgdjhfnemdk"
+    ]
+    }
+  ],
+"content_scripts": [
+    {
+        "matches": [
+        "*://www.reddit.com/*"
+      ],
+      "css": ["css/reddit.css"]
+    }
+],
+  "host_permissions": [
+        "*://www.reddit.com/*"
+  ],
+  "action": {
+      "default_popup": "popup.html"
+  }
+
+}
