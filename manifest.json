@@ -1,14 +1,14 @@
 {
   "manifest_version": 3,
-  "name": "Reddit to Teddit",
+  "name": "Less Annoying Twitter",
   "version": "0.0.1",
-  "description": "Automatically redirect web pages from Reddit to Teddit.",
+  "description": "Hide login toolbar and login popup.",
    "permissions": ["scripting"],
   "icons": {
-    "16": "images/recycle-16.png",
-    "32": "images/recycle-32.png",
-    "48": "images/recycle-48.png",
-    "128": "images/recycle-128.png"
+    "16": "images/letter-t-16.png",
+    "32": "images/letter-t-32.png",
+    "48": "images/letter-t-48.png",
+    "128": "images/letter-t-128.png"
 },
 "background": {
     "service_worker": "scripts/background.js"
