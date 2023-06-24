@@ -24,13 +24,13 @@
 "content_scripts": [
     {
         "matches": [
-        "*://www.reddit.com/*"
+        "*://*.twitter.com/*"
       ],
-      "css": ["css/reddit.css"]
+      "css": ["css/global.css"]
     }
 ],
   "host_permissions": [
-        "*://www.reddit.com/*"
+        "*://*.twitter.com/*"
   ],
   "action": {
       "default_popup": "popup.html"

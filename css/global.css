@@ -1,0 +1,3 @@
+#layers, [data-testid=mask], [data-testid=login], [data-testid=signup] {
+  display: none !important;
+}
