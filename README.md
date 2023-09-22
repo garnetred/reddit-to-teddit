@@ -3,6 +3,9 @@
 ## Browser Extension Deprecation
 Teddit is shutting down August 1, 2023, which will also result in the deprecation of this browser extension. The browser extension will still redirect to the site, but currently most Teddit pages result in a 429 "Too Many Requests" HTTP status code as a result of Reddit's crackdown on third-party applications. You can learn more [here](https://tedd.it/shutdown). 
 
+## Donate 
+You can support this extension by [buying me a coffee](https://www.buymeacoffee.com/decemberthedeveloper) to help me continue to make free, user-friendly browser extensions.
+
 ## Abstract
 This browser extension automatically redirects Reddit pages to [Teddit](https://teddit.net/about), an open-source, privacy-conscious Reddit alternative.
 
